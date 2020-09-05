@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="annotation" />
+        <module name="ioc-container-overview" />
+        <module name="java-beans-demo" />
+        <module name="resource" />
+        <module name="dependency-source" />
+        <module name="application-context-lifecycle" />
+        <module name="conversion" />
+        <module name="bean-lifecycle" />
+        <module name="spring-bean" />
+        <module name="dependency-lookup" />
+        <module name="event" />
+        <module name="questions" />
+        <module name="configuration-metadata" />
+        <module name="validation" />
+        <module name="generic" />
+        <module name="environment" />
+        <module name="i18n" />
+        <module name="data-binding" />
+        <module name="dependency-injection" />
+        <module name="bean-scope" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="java-beans-demo" options="-parameters" />
+    </option>
+  </component>
+</project>
